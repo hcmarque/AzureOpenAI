@@ -199,18 +199,16 @@ Here's a general outline of how you can use Power Apps to access Azure OpenAI se
 
 * **Step 3** This is the time to use what you have noted on the step * [Accessing Azure OpenAI API's](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#accessing-azure-openai-apis) 
 
- ```
- New Step
- Search for HTTP
- HTTP Premium
- Method: POST
- URL: 
-   -  BRING YOUR API ADDRESS FROM [Accessing Azure OpenAI API's](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#accessing-azure-openai-apis) 
- Headeers: 
-   - Content-Type: application/json
-   - api-key: BRING THE API FROM [Accessing Azure OpenAI API's](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#accessing-azure-openai-apis) 
- ```
 
+      * New Step
+      * Search for HTTP
+      * HTTP Premium
+      * Method: POST
+      * URL: 
+         -  BRING YOUR API ADDRESS 
+         -  Content-Type: application/json
+         -  api-key: BRING THE API FROM
+      * Body:
 ```
 {
   "prompt": @{triggerBody()['Initializevariable_Value']},
@@ -219,6 +217,20 @@ Here's a general outline of how you can use Power Apps to access Azure OpenAI se
 }
 ```
 
-
 ![Recording 2023-02-10 at 16 05 00](https://user-images.githubusercontent.com/13455341/218197836-1ca02f16-3d7e-4ad2-a6dc-48125cfeb3d1.gif)
+
+
+
+* **Step 4** Save and Test the HTTP API Call
+
+   * Save the Flow
+   * Click Test on top right
+   * Manually
+   * Test
+   * Enter a reference text for the test
+   * Run the test 
+   * Check if you have all green checks on each steps
+
+![Recording 2023-02-10 at 16 34 01](https://user-images.githubusercontent.com/13455341/218203518-d075c1b6-0cf1-434e-88dc-290defae8af0.gif)
+
 
