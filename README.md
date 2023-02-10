@@ -158,9 +158,21 @@ Note that access to the Azure OpenAI API is subject to usage limits and other re
 
 ![image](https://user-images.githubusercontent.com/13455341/218162830-202f0f51-c719-43ea-8aea-029c724f5e39.png)
 
+
+Step 2: Copy the API parameter on top of the Sample Code. In this example, the API was:
+https://xxxxxxxxxxxxxxxxxxxxxxxxxxx/openai/deployments/text-davinci-002/completions?api-version=2022-12-01
+Take a note of this API and save for later reference
+
 ![image](https://user-images.githubusercontent.com/13455341/218164226-8a6a6dd4-b147-466c-a4e4-be1f39642116.png)
 
 
+* Step 3: Back now to your Azure Subscrption Portal [Azure Portal](https://ms.portal.azure.com/), inside of your Azure OpenAI Services to access the API Key.
+
+The Keys and Endpoints are located underneath the Resource Management menu on the left blade (as highlighted on the picture below)
+
+![image](https://user-images.githubusercontent.com/13455341/218166042-16b95ebc-7ae1-432c-b2a7-80e4bf223589.png)
+
+* Step 4: 
 
 
 
