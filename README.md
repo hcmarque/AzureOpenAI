@@ -58,6 +58,8 @@ Use this link ASAP Submit this form to apply for access. Engineering will work t
 Click in Go to Resource
 ![image](https://user-images.githubusercontent.com/13455341/218115794-9a8f7be8-6618-4979-b395-cac2f4283c2c.png)
 
+## Exploring Azure OpenAI and Creating a deployment model
+
 Entering on the Azure OpenAI Instance, click on "Explore"
 
 ![image](https://user-images.githubusercontent.com/13455341/218116217-81b08e85-0dcf-4d2c-841c-a614dae19272.png)
@@ -70,7 +72,6 @@ Click now in "+ Create new deployments"
 
 ![Recording 2023-02-10 at 09 36 04](https://user-images.githubusercontent.com/13455341/218118277-d01d7d1b-ec3f-437a-be52-4ca2671d1887.gif)
 
-
 On the Deploy Model, you should chose for Model name. There are few options, Davinci is the most capable model family and can perform any task the other models can perform and often with less instruction. 
 
 For applications requiring a lot of understanding of the content, like summarization for a specific audience and creative content generation, Davinci is going to produce the best results. You can have more details about other models checking [here](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#davinci)
@@ -78,6 +79,8 @@ For applications requiring a lot of understanding of the content, like summariza
 Just a observation: No worries, build your Model using Davinci text 3 and the Azure Open AI Playground will let you know which model you should be using for which specific use case ;-)
 
 ![Recording 2023-02-10 at 09 44 48](https://user-images.githubusercontent.com/13455341/218120265-d776288c-93dc-4ef2-a917-40fb4f3ba407.gif)
+
+## Exploring Azure OpenAI Studio and Summarization
 
 As soon as you have your model created, click on the Deployed Model
 And them, click in "Open in Playground"
@@ -93,6 +96,15 @@ You will be able to see that a message will appers showing which Model this exam
 As a new Deployment model was created, named "text-davinci-002", select it, as well the "Summarize text" and click in Generate on the botton of the page to see the results of the example, in green.
 
 ![Recording 2023-02-10 at 09 49 12](https://user-images.githubusercontent.com/13455341/218121184-b98b0730-a294-4eec-8be5-4af8b3fe580c.gif)
+
+# Understanding the Max Length (tokens)
+
+The Max lenght (tokens) on Azure OpenAI means a set a limit on the number of tokens to generate in a response. The system supports a maximum of 4000 tokens shared between a given prompt and response completion. (One token is roughly 4 characters for typical English text.)
+
+Token refers to a unit of text used to represent a word or piece of punctuation in a computational process. Tokens are often used as the basis for processing and generating natural language text using artificial intelligence models such as OpenAI's GPT-3. The number of tokens in a given piece of text can impact the complexity of processing and generating a response, and setting a token limit can help to ensure that the generated response remains concise and manageable.
+
+## Additional GPT-3 Playground models
+
 
 
 
