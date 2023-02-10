@@ -141,7 +141,7 @@ Azure OpenAI Studio is a platform that provides access to OpenAI's advanced AI t
 
 ![Recording 2023-02-10 at 11 57 37](https://user-images.githubusercontent.com/13455341/218150823-b92b6633-69a8-4284-95d0-5ae391b2ee90.gif)
 
-These are just a few examples of the services available in Azure OpenAI Studio. The platform is continually evolving and expanding its capabilities, so new services and features may become available in the future.
+These are just a few examples of the services available in Azure OpenAI Studio. The platform is continually evolving and expanding its capabilities, so new services and features may become available in the future. 
 
 
 
