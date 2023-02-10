@@ -154,31 +154,49 @@ To connect the Azure OpenAI API to other Azure services, you will need to use th
 
 Note that access to the Azure OpenAI API is subject to usage limits and other restrictions, as specified in the Azure OpenAI service agreement. To avoid hitting usage limits, you should carefully manage your API usage and implement rate limiting in your application.
 
-* *Step 1:* Access the API call as a reference for your application. Back to the Summarization use case, and click on View Code on the top right.
+* **Step 1:** Access the API call as a reference for your application. Back to the Summarization use case, and click on View Code on the top right.
 
 ![image](https://user-images.githubusercontent.com/13455341/218162830-202f0f51-c719-43ea-8aea-029c724f5e39.png)
 
 
-* *Step 2:* Copy the API parameter on top of the Sample Code. In this example, the API was:
+* **Step 2:** Copy the API parameter on top of the Sample Code. In this example, the API was:
 https://xxxxxxxxxxxxxxxxxxxxxxxxxxx/openai/deployments/text-davinci-002/completions?api-version=2022-12-01
 Take a note of this API and save for later reference
 
 ![image](https://user-images.githubusercontent.com/13455341/218164226-8a6a6dd4-b147-466c-a4e4-be1f39642116.png)
 
 
-* *Step 3:* Back now to your Azure Subscrption Portal [Azure Portal](https://ms.portal.azure.com/), inside of your Azure OpenAI Services to access the API Key.
+* **Step 3:** Back now to your Azure Subscrption Portal [Azure Portal](https://ms.portal.azure.com/), inside of your Azure OpenAI Services to access the API Key.
 
 The Keys and Endpoints are located underneath the Resource Management menu on the left blade (as highlighted on the picture below)
 
 ![image](https://user-images.githubusercontent.com/13455341/218166042-16b95ebc-7ae1-432c-b2a7-80e4bf223589.png)
 
-* *Step 4:* These keys are used to access your Cognitive Service API. Do not share your keys. Store them securely– for example, using Azure Key Vault. We also recommend regenerating these keys regularly. Only one key is necessary to make an API call. When regenerating the first key, you can use the second key for continued access to the service.
+* **Step 4:** These keys are used to access your Cognitive Service API. Do not share your keys. Store them securely– for example, using Azure Key Vault. We also recommend regenerating these keys regularly. Only one key is necessary to make an API call. When regenerating the first key, you can use the second key for continued access to the service.
 
 ![image](https://user-images.githubusercontent.com/13455341/218166848-9692e237-11cc-4019-b420-4c469fa8621e.png)
 
 
+## Examples of API utilization and services utilization
+
+You can use Microsoft Power Apps to access Azure OpenAI services. Power Apps is a low-code platform that allows you to build custom business applications for web and mobile devices. You can use Power Apps to connect to a variety of data sources, including Azure OpenAI APIs, and to build custom applications that interact with the data provided by the API.
+
+Here's a general outline of how you can use Power Apps to access Azure OpenAI services:
+
+* **Step 1** Access the Power App Portal accessing [Power App](https://make.preview.powerapps.com/) and create a Flows clicking the Flows on the left blade. Click on "New Flow" and and then on "Instant Cloud Flow"
+
+![Recording 2023-02-10 at 13 32 10](https://user-images.githubusercontent.com/13455341/218170146-f4537868-c5f4-462f-8b4b-d534ff899b74.gif)
 
 
+
+
+Connect to the Azure OpenAI API: In Power Apps, you can add a custom API connection to the Azure OpenAI API. You will need to provide your API credentials, including your API key or access token, to establish the connection.
+
+Build the app: Use Power Apps to build the user interface and to define the app logic. You can use the Azure OpenAI API connection to retrieve data from the API and to display that data in your app.
+
+Deploy the app: Once you have built your app, you can deploy it to a web browser or mobile device using the Power Apps player.
+
+Using Power Apps to access Azure OpenAI services can be a quick and efficient way to build custom applications that use the data and functionality provided by the API. Power Apps provides a flexible, low-code platform that can be used by both developers and non-developers to build custom business applications.
 
 
 
