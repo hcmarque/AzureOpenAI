@@ -160,7 +160,7 @@ Note that access to the Azure OpenAI API is subject to usage limits and other re
 
 
 * **Step 2:** Copy the API parameter on top of the Sample Code. In this example, the API was:
-https://xxxxxxxxxxxxxxxxxxxxxxxxxxx/openai/deployments/text-davinci-002/completions?api-version=2022-12-01
+https://xxxxxxxxxx/openai/deployments/text-davinci-002/completions?api-version=2022-12-01
 Take a note of this API and save for later reference
 
 ![image](https://user-images.githubusercontent.com/13455341/218164226-8a6a6dd4-b147-466c-a4e4-be1f39642116.png)
@@ -197,17 +197,28 @@ Here's a general outline of how you can use Power Apps to access Azure OpenAI se
 
 ![Recording 2023-02-10 at 15 07 04](https://user-images.githubusercontent.com/13455341/218187685-95ed4691-d2b6-4d55-8008-9543d850b6bd.gif)
 
-* **Step 3** This is the time to use what you have noted on the step * [Accessing Azure OpenAI API's](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#accessing-azure-openai-apis) - The API Access and the 
+* **Step 3** This is the time to use what you have noted on the step * [Accessing Azure OpenAI API's](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#accessing-azure-openai-apis) 
+
+ ```
+ New Step
+ Search for HTTP
+ HTTP Premium
+ Method: POST
+ URL: 
+   -  BRING YOUR API ADDRESS FROM [Accessing Azure OpenAI API's](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#accessing-azure-openai-apis) 
+ Headeers: 
+   - Content-Type: application/json
+   - api-key: BRING THE API FROM [Accessing Azure OpenAI API's](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#accessing-azure-openai-apis) 
+ ```
+
+```
+{
+  "prompt": @{triggerBody()['Initializevariable_Value']},
+  "max_tokens": 1000,
+  "temperature": 1
+}
+```
 
 
-Connect to the Azure OpenAI API: In Power Apps, you can add a custom API connection to the Azure OpenAI API. You will need to provide your API credentials, including your API key or access token, to establish the connection.
-
-Build the app: Use Power Apps to build the user interface and to define the app logic. You can use the Azure OpenAI API connection to retrieve data from the API and to display that data in your app.
-
-Deploy the app: Once you have built your app, you can deploy it to a web browser or mobile device using the Power Apps player.
-
-Using Power Apps to access Azure OpenAI services can be a quick and efficient way to build custom applications that use the data and functionality provided by the API. Power Apps provides a flexible, low-code platform that can be used by both developers and non-developers to build custom business applications.
-
-
-
+![Recording 2023-02-10 at 16 05 00](https://user-images.githubusercontent.com/13455341/218197836-1ca02f16-3d7e-4ad2-a6dc-48125cfeb3d1.gif)
 
