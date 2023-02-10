@@ -122,8 +122,23 @@ Token refers to a unit of text used to represent a word or piece of punctuation 
 
 ## Additional GPT-3 Playground models
 
+Azure OpenAI Studio is a platform that provides access to OpenAI's advanced AI technologies, including its cutting-edge language models, to help businesses and developers build advanced applications. Some of the services available in Azure OpenAI Studio include:
 
+* GPT-3 Language Model: This is the latest and most advanced language model from OpenAI, capable of performing a wide range of natural language processing tasks such as text generation, language translation, and sentiment analysis.
 
+* Text Generation: A service that allows you to generate new text based on a prompt or sample text, using the GPT-3 language model.
+
+* Text Classification: A service that allows you to classify text into predefined categories based on its content, using machine learning algorithms.
+
+* Named Entity Recognition: A service that identifies named entities in text, such as people, organizations, and locations.
+
+* Sentiment Analysis: A service that analyzes the sentiment or emotional tone of a piece of text.
+
+* Text Translation: A service that translates text from one language to another.
+
+![Recording 2023-02-10 at 11 57 37](https://user-images.githubusercontent.com/13455341/218150823-b92b6633-69a8-4284-95d0-5ae391b2ee90.gif)
+
+These are just a few examples of the services available in Azure OpenAI Studio. The platform is continually evolving and expanding its capabilities, so new services and features may become available in the future.
 
 
 
