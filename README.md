@@ -226,6 +226,3 @@ Here's a general outline of how you can use Power Apps to access Azure OpenAI se
 
 ![Recording 2023-02-10 at 16 34 01](https://user-images.githubusercontent.com/13455341/218203518-d075c1b6-0cf1-434e-88dc-290defae8af0.gif)
 
-
-### Using Azure Synapse to access Azure OpenAI services
-
