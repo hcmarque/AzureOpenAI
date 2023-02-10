@@ -42,9 +42,7 @@ In summary, using OpenAI in Azure provides a more integrated, scalable, secure, 
 ## Enrolling in OpenAI in Azure
 
 The fisrt step here would be to enroll to joining the Managed Azure Open AI General Availability in your subscription. 
-Use this link ASAP Submit this form to apply for access. Engineering will work to approve your access in 3-10 business days.
-
-[link](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUOFA5Qk1UWDRBMjg0WFhPMkIzTzhKQ1dWNyQlQCN0PWcu)
+Use this link ASAP Submit this form to apply for access. Engineering will work to approve your access in 3-10 business days. [link](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUOFA5Qk1UWDRBMjg0WFhPMkIzTzhKQ1dWNyQlQCN0PWcu)
 
 ![image](https://user-images.githubusercontent.com/13455341/218121565-daacf1b8-64cb-4618-928d-98ebb4a6c4de.png)
 
