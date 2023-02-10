@@ -144,6 +144,23 @@ Azure OpenAI Studio is a platform that provides access to OpenAI's advanced AI t
 These are just a few examples of the services available in Azure OpenAI Studio. The platform is continually evolving and expanding its capabilities, so new services and features may become available in the future. 
 
 
+## Accessing Azure OpenAI API's
+
+To access Azure OpenAI APIs, you will need to have an Azure account and a subscription to the Azure OpenAI service. Once you have access to the Azure OpenAI platform, you can use the API by following these steps:
+
+Obtain API credentials: To access the API, you will need to obtain an API key or access token that can be used to authenticate your API requests. You can obtain API credentials from the Azure portal.
+
+To connect the Azure OpenAI API to other Azure services, you will need to use the API to retrieve data and then store that data in an Azure database or storage service. You can also use the API to trigger other Azure services, such as Azure Functions, to perform additional processing on the data.
+
+Note that access to the Azure OpenAI API is subject to usage limits and other restrictions, as specified in the Azure OpenAI service agreement. To avoid hitting usage limits, you should carefully manage your API usage and implement rate limiting in your application.
+
+* Step 1: Access the API call as a reference for your application. Back to the Summarization use case, and click on View Code on the top right.
+
+![image](https://user-images.githubusercontent.com/13455341/218162830-202f0f51-c719-43ea-8aea-029c724f5e39.png)
+
+![image](https://user-images.githubusercontent.com/13455341/218164226-8a6a6dd4-b147-466c-a4e4-be1f39642116.png)
+
+
 
 
 
