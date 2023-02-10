@@ -13,13 +13,13 @@ Before to jumping to tye Azure OpenAI API, this guide will show how to have acce
 
 
 ## Topics that you will work in this guide:
-* [Introduction of Using Open AI in Azure](https://github.com/hcmarque/OpenAI-Azure/edit/main/README.md#introduction-of-using-openai-in-azure)
-* [Enrolling Open AI in Azure](https://github.com/hcmarque/OpenAI-Azure/edit/main/README.md#enrolling-in-openai-in-azure)
+* [Introduction of Using Open AI in Azure](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#introduction-of-using-open-ai-in-azure)
+* [Enrolling Open AI in Azure](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#enrolling-in-openai-in-azure)
 * [Creating an OpenAI instance in Azure after receving your confirmation]()
-* [Exploring Azure OpenAI and Creating a deployment model](https://github.com/hcmarque/AzureOpenAI/edit/main/README.md#exploring-azure-openai-and-creating-a-deployment-model)
-* [Exploring Azure OpenAI Studio and Summarization](https://github.com/hcmarque/AzureOpenAI/edit/main/README.md#exploring-azure-openai-studio-and-summarization)
-* [Understanding the Max Length (tokens)](https://github.com/hcmarque/AzureOpenAI/edit/main/README.md#understanding-the-max-length-tokens)
-* [Additional GPT-3 Playground models](https://github.com/hcmarque/AzureOpenAI/edit/main/README.md#additional-gpt-3-playground-models)
+* [Exploring Azure OpenAI and Creating a deployment model](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#exploring-azure-openai-and-creating-a-deployment-model)
+* [Exploring Azure OpenAI Studio and Summarization](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#exploring-azure-openai-studio-and-summarization)
+* [Understanding the Max Length (tokens)](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#understanding-the-max-length-tokens)
+* [Additional GPT-3 Playground models](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#additional-gpt-3-playground-models)
 
 
 
