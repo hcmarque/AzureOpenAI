@@ -188,6 +188,16 @@ Here's a general outline of how you can use Power Apps to access Azure OpenAI se
 ![Recording 2023-02-10 at 13 32 10](https://user-images.githubusercontent.com/13455341/218170146-f4537868-c5f4-462f-8b4b-d534ff899b74.gif)
 
 
+* **Step 2** In Microsoft Power Apps, you can use variables to store and manipulate data in your app. By initializing a variable, you give it an initial value that can be used as a starting point for further computations or manipulations within your app. This is what we will do in our second step. 
+    * Click in New Step
+    * Search for Iniialize variable
+    * use a "prompt" on Name
+    * Type: String
+    * Value, select Ask in Power App (wich will be translated to Initialize Varaible parameter
+
+![Recording 2023-02-10 at 15 07 04](https://user-images.githubusercontent.com/13455341/218187685-95ed4691-d2b6-4d55-8008-9543d850b6bd.gif)
+
+* **Step 3** This is the time to use what you have noted on the step * [Accessing Azure OpenAI API's](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#accessing-azure-openai-apis) - The API Access and the 
 
 
 Connect to the Azure OpenAI API: In Power Apps, you can add a custom API connection to the Azure OpenAI API. You will need to provide your API credentials, including your API key or access token, to establish the connection.
