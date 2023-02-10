@@ -20,7 +20,7 @@ Before to jumping to tye Azure OpenAI API, this guide will show how to have acce
 * [Exploring Azure OpenAI Studio and Summarization](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#exploring-azure-openai-studio-and-summarization)
 * [Understanding the Max Length (tokens)](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#understanding-the-max-length-tokens)
 * [Additional GPT-3 Playground models](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#additional-gpt-3-playground-models)
-
+* [Accessing Azure OpenAI API's](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#accessing-azure-openai-apis)
 
 
 ## Introduction of Using Open AI in Azure
