@@ -1,6 +1,6 @@
-# Azure OpenAI
+# Azure OpenAI Setup and API's
 
-# Azure OpenAI API's in details connecting to other Azure and Microsoft Services
+## Connecting Azure OpenAI with other Azure and Microsoft Services
 
 This GitHub repository serves as a  guide for users who want to establish a connection between different Azure services and Azure OpenAI. 
 
