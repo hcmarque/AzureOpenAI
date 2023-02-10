@@ -114,7 +114,7 @@ As a new Deployment model was created, named "text-davinci-002", select it, as w
 
 ![Recording 2023-02-10 at 09 49 12](https://user-images.githubusercontent.com/13455341/218121184-b98b0730-a294-4eec-8be5-4af8b3fe580c.gif)
 
-# Understanding the Max Length (tokens)
+## Understanding the Max Length (tokens)
 
 The Max lenght (tokens) on Azure OpenAI means a set a limit on the number of tokens to generate in a response. The system supports a maximum of 4000 tokens shared between a given prompt and response completion. (One token is roughly 4 characters for typical English text.)
 
