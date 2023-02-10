@@ -58,13 +58,13 @@ Use this link ASAP Submit this form to apply for access. Engineering will work t
 
 * As soon as you have your Azure OpenAI created, please create an instance of Azure OpenAI clicking on Create
 
-* On Create Azure OpenAI:
-- Select the Subscription
-- Resorce Group: Create new OR use any another already created, in this case, a OpenAI Resorce Group was created.
-- Region: In this exemple, a Esat US was selected, there are other 2 options: South Central US or West Europe. Feel free to pickup the one that is aligned with your region.
-- Provide a name for the Instance, in this example, the OpenAI-Github was used.
-- Pricing Tier: Standard S0
-- Click in Review + Create and create your instance
+* Create Azure OpenAI:
+   - Select the Subscription
+   - Resorce Group: Create new OR use any another already created, in this case, a OpenAI Resorce Group was created.
+   - Region: In this exemple, a Esat US was selected, there are other 2 options: South Central US or West Europe. Feel free to pickup the one that is aligned with your region.
+   - Provide a name for the Instance, in this example, the OpenAI-Github was used.
+   - Pricing Tier: Standard S0
+   - Click in Review + Create and create your instance
 
 ![Recording 2023-02-10 at 09 21 21](https://user-images.githubusercontent.com/13455341/218114836-c98d89d9-0923-47c9-9856-da479322aca4.gif)
 
