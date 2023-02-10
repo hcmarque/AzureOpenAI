@@ -21,7 +21,7 @@ Before to jumping to tye Azure OpenAI API, this guide will show how to have acce
 * [Understanding the Max Length (tokens)](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#understanding-the-max-length-tokens)
 * [Additional GPT-3 Playground models](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#additional-gpt-3-playground-models)
 * [Accessing Azure OpenAI API's](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#accessing-azure-openai-apis)
-
+* [Examples of API utilization and services utilization](https://github.com/hcmarque/AzureOpenAI/blob/main/README.md#examples-of-api-utilization-and-services-utilization)
 
 ## Introduction of Using Open AI in Azure
 Using OpenAI in Azure provides several advantages over using OpenAI standalone. Here are some of the key benefits of using OpenAI in Azure:
