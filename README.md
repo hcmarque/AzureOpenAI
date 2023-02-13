@@ -170,7 +170,7 @@ The Keys and Endpoints are located underneath the Resource Management menu on th
 
 ## Examples of API utilization and services utilization
 
-### Using Power Apps to access Azure OpenAI services
+## Using Power Apps to access Azure OpenAI services
 
 You can use Microsoft Power Apps to access Azure OpenAI services. Power Apps is a low-code platform that allows you to build custom business applications for web and mobile devices. You can use Power Apps to connect to a variety of data sources, including Azure OpenAI APIs, and to build custom applications that interact with the data provided by the API.
 
@@ -230,7 +230,7 @@ Remember to remove the key from your code when you're done, and never post it pu
 ![Recording 2023-02-10 at 16 34 01](https://user-images.githubusercontent.com/13455341/218203518-d075c1b6-0cf1-434e-88dc-290defae8af0.gif)
 
 
-### Using Azure Synapse to access Azure OpenAI services
+## Using Azure Synapse to access Azure OpenAI services
 
 Azure Synapse and Azure OpenAI can be connected to bring the benefits of both platforms to your workflow.
 
