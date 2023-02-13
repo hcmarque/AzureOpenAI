@@ -26,7 +26,7 @@ Before to jumping to the Azure OpenAI API, this guide will show how to have acce
 
 Using OpenAI in Azure provides several advantages over using OpenAI standalone. Here are some of the key benefits of using OpenAI in Azure:
 
-* **Integration with other Azure services**: By using OpenAI in Azure, you can easily integrate it with other Azure services such as Azure Machine Learning, Azure Databricks, and others, which can help you streamline your workflows and achieve your goals faster.
+* **Integration with other Azure services**: By using OpenAI in Azure, you can easily integrate it with other Azure services such as Azure Machine Learning, Azure Databricks, Microsoft Power Platform, and others, which can help you streamline your workflows and achieve your goals faster.
 
 * **Scalability**: Azure provides a scalable platform that can help you meet the demands of your applications and workloads, regardless of the size of your deployment. This can be particularly beneficial for organizations that need to process large amounts of data or run computationally intensive workloads.
 
