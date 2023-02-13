@@ -202,6 +202,12 @@ Here's a general outline of how you can use Power Apps to access Azure OpenAI se
          -  Content-Type: application/json
          -  api-key: BRING THE API FROM
       * Body:
+      
+```
+Remember to remove the key from your code when you're done, and never post it publicly. For production, use a secure way of storing and accessing your credentials like Azure Key Vault. See the Cognitive Services [security-article](https://learn.microsoft.com/en-us/azure/cognitive-services/cognitive-services-security) for more information.
+```
+
+      
 ```
 {
   "prompt": @{triggerBody()['Initializevariable_Value']},
