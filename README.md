@@ -238,7 +238,7 @@ To connect Azure Synapse and Azure OpenAI, you can use Azure Synapse Studio to a
 
 The reason to connect Azure Synapse and Azure OpenAI is that Azure Synapse provides a unified workspace for big data analytics and data warehousing, while Azure OpenAI provides access to the largest and most advanced language model, GPT-3. By connecting the two platforms, you can leverage the power of Azure OpenAI's advanced language capabilities in your data analytics workflows, enabling you to extract insights from unstructured data and enhance your overall data analysis capabilities.
 
-For example, **you can use the OpenAI API to generate natural language summaries of large datasets stored in Azure Synapse, perform sentiment analysis on customer feedback data, or extract key entities and relationships from text data.** These capabilities can greatly enhance the insights you can gain from your data, enabling you to make informed decisions and drive business success.
+For example, **you can use the Azure OpenAI API to generate natural language summaries of large datasets stored in Azure Synapse, perform sentiment analysis on customer feedback data, or extract key entities and relationships from text data.** These capabilities can greatly enhance the insights you can gain from your data, enabling you to make informed decisions and drive business success.
 
 This tutorial below shows how to apply large language models at a distributed scale using Azure Open AI and Azure Synapse Analytics.
 Click here for your reference: [Azure Synapse and Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/integrate-synapseml)
