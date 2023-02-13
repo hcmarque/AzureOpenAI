@@ -229,3 +229,21 @@ Remember to remove the key from your code when you're done, and never post it pu
 
 ![Recording 2023-02-10 at 16 34 01](https://user-images.githubusercontent.com/13455341/218203518-d075c1b6-0cf1-434e-88dc-290defae8af0.gif)
 
+
+### Using Azure Synapse to access Azure OpenAI services
+
+Azure Synapse and Azure OpenAI can be connected to bring the benefits of both platforms to your workflow.
+
+To connect Azure Synapse and Azure OpenAI, you can use Azure Synapse Studio to access OpenAI's GPT-3 language model and use its capabilities to enhance the data in your Azure Synapse workspace. You can use Azure Synapse Studio notebooks to call the OpenAI API, retrieve the results, and perform data analytics or machine learning tasks on the data returned by the API.
+
+The reason to connect Azure Synapse and Azure OpenAI is that Azure Synapse provides a unified workspace for big data analytics and data warehousing, while Azure OpenAI provides access to the largest and most advanced language model, GPT-3. By connecting the two platforms, you can leverage the power of Azure OpenAI's advanced language capabilities in your data analytics workflows, enabling you to extract insights from unstructured data and enhance your overall data analysis capabilities.
+
+For example, **you can use the OpenAI API to generate natural language summaries of large datasets stored in Azure Synapse, perform sentiment analysis on customer feedback data, or extract key entities and relationships from text data.** These capabilities can greatly enhance the insights you can gain from your data, enabling you to make informed decisions and drive business success.
+
+This tutorial below shows how to apply large language models at a distributed scale using Azure Open AI and Azure Synapse Analytics.
+Click here for your reference: [Azure Synapse and Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/integrate-synapseml)
+
+Reference Notebook from the example above:
+
+![image](https://user-images.githubusercontent.com/13455341/218365022-14206e36-45aa-48e9-aad6-e21e3aea4d53.png)
+
